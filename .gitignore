@@ -1,6 +1,0 @@
-__pycache__/
-*.pyc
-.venv/
-venv/
-outputs/screening_cache/
-.DS_Store
