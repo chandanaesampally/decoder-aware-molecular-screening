@@ -17,34 +17,13 @@ A dashboard that connects learned decoder-triage policies for surface-code error
 ## Repository
 
 ```
-https://github.com/yourusername/decoder-aware-molecular-screening
+https://github.com/chandanaesampally/decoder-aware-molecular-screening
 ```
 
 ## Quick Start
 
 ```bash
-# Clone repository
-git clone https://github.com/yourusername/decoder-aware-molecular-screening.git
-cd decoder-aware-molecular-screening
-
-# Set up environment (see detailed instructions below)
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-# venv\Scripts\activate   # Windows
-
-# Install all dependencies
-pip install -r requirements.txt
-
-# Run full pipeline
-python generate_data.py
-python decoder_triage_pipeline.py
-python app.py
-
-# Open http://127.0.0.1:8060/
-```
-
 ## Requirements
-
 - **Python:** 3.10 or 3.11 (3.12+ may have compatibility issues with `torch-geometric`)
 - **OS:** Linux, macOS, or Windows
 - **GPU:** Optional (automatically falls back to CPU)
@@ -56,7 +35,7 @@ python app.py
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/decoder-aware-molecular-screening.git
+git clone https://github.com/chandanaesampally/decoder-aware-molecular-screening.git
 cd decoder-aware-molecular-screening
 ```
 
